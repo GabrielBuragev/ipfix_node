@@ -1,9 +1,9 @@
 var IPFIX_ENTITIES = require('./ipfix_entities');
-var IpfixHeader = require('./ipfix_packet_elements/ipfix_header');
-var IpfixTemplateSet = require('./ipfix_packet_elements/template_set/record');
-var IpfixOptionsTemplateSet = require('./ipfix_packet_elements/options_template_set/record');
-var IpfixDataSet = require('./ipfix_packet_elements/data_set/record');
-var IpfixGenericSet = require('./ipfix_packet_elements/ipfix_generic_set');
+var IpfixHeader = require('./ipfix_header');
+var IpfixTemplateSet = require('./template_set/record');
+var IpfixOptionsTemplateSet = require('./options_template_set/record');
+var IpfixDataSet = require('./data_set/record');
+var IpfixGenericSet = require('./ipfix_generic_set');
 
 var IpfixPacket = function(params) {
     var self = this;
