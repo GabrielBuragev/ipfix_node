@@ -1,6 +1,6 @@
 {
   "name": "ipfix_node",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Ipfix flow decoder node",
   "main": "ipfix_decoder.js",
   "scripts": {
