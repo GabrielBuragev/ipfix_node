@@ -10,7 +10,7 @@ npm install ipfix_node
 
 ### Usage:
 ```
-var IpfixDecoder = require('ipfix_node');
+var IpfixDecoder = require('ipfix_node')();
 
 ...
 
