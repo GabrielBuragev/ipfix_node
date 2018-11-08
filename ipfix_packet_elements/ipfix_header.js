@@ -19,7 +19,6 @@ var Header = function(buffer) {
         self.ObservationDomainId = buffer.readUInt32BE(12);
         self.sizeInBytes = 16;
     }
-    console.log('In header : ', this);
     _construct();
 
     return this;
