@@ -1,7 +1,7 @@
 ### Ipfix decoder for Node.js.
 
 ##### This module is still in development mode.
-##### Its purpose is to decode ipfix NetFlows exported from software like "softflowd", and return them as **[entity data]**(https://www.iana.org/assignments/ipfix/ipfix.xhtml).
+##### Its purpose is to decode ipfix NetFlows exported from software like "softflowd", and return them as [entity data](https://www.iana.org/assignments/ipfix/ipfix.xhtml).
 
 ### **Installation**
 ```
