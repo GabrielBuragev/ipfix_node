@@ -1,0 +1,21 @@
+{
+  "name": "ipfix_node",
+  "version": "1.0.0",
+  "description": "Ipfix flow decoder node",
+  "main": "ipfix_decoder.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Ipfix",
+    "Decoder",
+    "NetFlow",
+    "v10",
+    "Node.js"
+  ],
+  "dependencies": {
+    "bignum": "^0.13.0"
+  },
+  "author": "Gabs",
+  "license": "ISC"
+}
