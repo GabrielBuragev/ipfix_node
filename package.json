@@ -1,6 +1,6 @@
 {
   "name": "ipfix_node",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Ipfix flow deserializer in Node.JS",
   "main": "deserializer.js",
   "scripts": {
@@ -21,7 +21,8 @@
     "nodejs"
   ],
   "dependencies": {
-    "bignum": "^0.13.0"
+    "bignum": "^0.13.1",
+    "ip-address": "^6.3.0"
   },
   "author": "Gabs",
   "license": "ISC"
